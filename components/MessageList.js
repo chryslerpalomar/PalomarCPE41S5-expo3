@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import { MessageShape } from "./MessageUtils";
 
 import { FlatList, Image, StyleSheet, Text, TouchableOpacity, View, Alert, } from "react-native";
-import MapView, { Marker } from 'react-native-maps';
+//import MapView, { Marker } from 'react-native-maps';
 
 const keyExtractor = item => `${item.id}`;
 
@@ -47,8 +47,9 @@ export default class MessageList extends React.Component {
                 );
             
             case 'location':
-                return (
+                return;// (
                     
+                    /*
                     <MapView 
                         style={styles.map} 
                         initialRegion={{
@@ -59,8 +60,9 @@ export default class MessageList extends React.Component {
                     >
                         <Marker coordinate={coordinate} />
                     </MapView>
+                    */
                     
-                );
+                //);
 
             default:
                 return null;

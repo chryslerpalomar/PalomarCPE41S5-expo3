@@ -22,7 +22,7 @@
         
       },
       "package": "com.CPE026Team35.MessagingApp",
-      "versionCode": 3
+      "versionCode": 4
     },
     "web": {
       "favicon": "./assets/favicon.png"
